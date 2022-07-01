@@ -8,8 +8,9 @@ import img7 from "src/assets/avatars/gon.jpeg";
 import img8 from "src/assets/avatars/palpatine.jpeg";
 import img9 from "src/assets/avatars/general.jpeg";
 import img10 from "src/assets/avatars/chew.jpeg";
+import {AuthorType} from "../types";
 
-const authors: any[] = [
+const authors: AuthorType[] = [
     {
         id: 1,
         name: "Obi-Wan Kenobi",

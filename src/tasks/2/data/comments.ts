@@ -1,4 +1,7 @@
-const comments: any[] = [
+/* eslint-disable no-useless-concat */
+import {CommentDataType} from "../types";
+
+const comments: CommentDataType[] = [
     {
         id: 204,
         created: "2021-07-04T14:44:40.038111+00:00",
