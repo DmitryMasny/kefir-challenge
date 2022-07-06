@@ -1,5 +1,5 @@
 import {FC, useMemo} from "react";
-import {CommentWrapper, Header, Avatar, NameWrapper, Name, Likes, Text, CreatedDate, List, Thread} from "./styles";
+import {Avatar, CommentWrapper, CreatedDate, Header, Likes, List, Name, NameWrapper, Text, Thread} from "./styles";
 import {CommentType} from "../types";
 import {ReactComponent as LikeIcon} from "src/assets/like.svg";
 

@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import getDataRequest from "../data/getDataRequest";
-import {List, MainWrapper, Info, Button} from "./styles";
-import {AuthorType, AuthorId, CommentType, CommentDataType, PostId} from "../types";
+import {Button, Info, List, MainWrapper} from "./styles";
+import {AuthorId, AuthorType, CommentDataType, CommentType, PostId} from "../types";
 import Comment from "./Comment";
 
 const CommentsList = () => {

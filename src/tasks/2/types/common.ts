@@ -16,7 +16,7 @@ export type CommentDataType = {
     comments?: PostId[]
 }
 
-export type CommentType = Omit<CommentDataType, 'author' | 'comments'> & {
+export type CommentType = Omit<CommentDataType, "author" | "comments"> & {
     author: AuthorType;
     comments?: CommentType[]
 }

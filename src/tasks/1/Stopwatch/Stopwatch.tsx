@@ -1,4 +1,4 @@
-import {FC, useState, useEffect, useCallback} from "react";
+import {FC, useEffect, useState} from "react";
 
 interface IStopwatchProps {
 }
@@ -31,6 +31,7 @@ const Stopwatch: FC<IStopwatchProps> = () => {
     };
 
     const handleReset = () => {
+        clearInterval(intervalId);
         setIntervalId(0);
         setRunningTime(0);
     };
